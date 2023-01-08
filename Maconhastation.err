@@ -1,0 +1,35 @@
+2023-01-08 18:19:20 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-01-08 18:19:20 0 [Note] InnoDB: Using transactional memory
+2023-01-08 18:19:20 0 [Note] InnoDB: Number of transaction pools: 1
+2023-01-08 18:19:20 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-01-08 18:19:20 0 [Note] InnoDB: Initializing buffer pool, total size = 0.999GiB, chunk size = 15.984MiB
+2023-01-08 18:19:20 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-01-08 18:19:20 0 [Note] InnoDB: File system buffers for log disabled (block size=4096 bytes)
+2023-01-08 18:19:20 0 [Note] InnoDB: 128 rollback segments are active.
+2023-01-08 18:19:20 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2023-01-08 18:19:20 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2023-01-08 18:19:20 0 [Note] InnoDB: log sequence number 46560; transaction id 14
+2023-01-08 18:19:20 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-01-08 18:19:20 0 [Note] InnoDB: Loading buffer pool(s) from C:\Program Files\MariaDB 10.10\data\ib_buffer_pool
+2023-01-08 18:19:20 0 [Note] InnoDB: Buffer pool(s) load completed at 230108 18:19:20
+2023-01-08 18:19:20 0 [Note] Server socket created on IP: '::'.
+2023-01-08 18:19:20 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-01-08 18:19:21 0 [Note] C:\Program Files\MariaDB 10.10\bin\mysqld.exe: ready for connections.
+Version: '10.10.2-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2023-01-08 18:26:07 3 [ERROR] Invalid (old?) table or database name 'ms13-db'
+2023-01-08 18:26:57 4 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-08 18:27:03 5 [ERROR] Invalid (old?) table or database name 'ms13-db'
+2023-01-08 18:28:53 5 [ERROR] Invalid (old?) table or database name 'ms13-db'
+2023-01-08 18:28:59 5 [ERROR] Invalid (old?) table or database name 'ms13-db'
+2023-01-08 18:29:54 5 [ERROR] InnoDB: Operating system error number 80 in a file operation.
+2023-01-08 18:29:54 5 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2023-01-08 18:29:54 5 [Note] InnoDB: The file './ms13/admin.ibd' already exists though the corresponding table did not exist in the InnoDB data dictionary. You can resolve the problem by removing the file.
+2023-01-08 18:29:54 5 [ERROR] InnoDB: Cannot create file './ms13/admin.ibd'
+2023-01-08 18:49:54 6 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-08 18:49:54 7 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-08 18:49:54 8 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-08 18:49:54 9 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-08 18:49:55 10 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-08 18:50:00 11 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-08 18:51:31 12 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-08 18:51:31 13 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
