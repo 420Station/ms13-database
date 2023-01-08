@@ -55,3 +55,484 @@ Version: '10.10.2-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribut
 2023-01-08 20:40:23 0 [Note] InnoDB: Shutdown completed; log sequence number 489889; transaction id 357
 2023-01-08 20:40:23 0 [Note] C:\Program Files\MariaDB 10.10\bin\mysqld.exe: Shutdown complete
 
+2023-01-08 20:40:38 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-01-08 20:40:38 0 [Note] InnoDB: Using transactional memory
+2023-01-08 20:40:38 0 [Note] InnoDB: Number of transaction pools: 1
+2023-01-08 20:40:38 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-01-08 20:40:38 0 [Note] InnoDB: Initializing buffer pool, total size = 0.999GiB, chunk size = 15.984MiB
+2023-01-08 20:40:38 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-01-08 20:40:38 0 [Note] InnoDB: File system buffers for log disabled (block size=4096 bytes)
+2023-01-08 20:40:38 0 [Note] InnoDB: 128 rollback segments are active.
+2023-01-08 20:40:38 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2023-01-08 20:40:38 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2023-01-08 20:40:38 0 [Note] InnoDB: log sequence number 489889; transaction id 331
+2023-01-08 20:40:38 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-01-08 20:40:38 0 [Note] InnoDB: Loading buffer pool(s) from C:\Program Files\MariaDB 10.10\data\ib_buffer_pool
+2023-01-08 20:40:38 0 [ERROR] InnoDB: Expected tablespace id 33 but found 5 in the file ./ms13/admin.ibd
+2023-01-08 20:40:38 0 [ERROR] InnoDB: Expected tablespace id 34 but found 6 in the file ./ms13/admin_log.ibd
+2023-01-08 20:40:38 0 [ERROR] InnoDB: Expected tablespace id 35 but found 7 in the file ./ms13/admin_ranks.ibd
+2023-01-08 20:40:38 0 [Note] Server socket created on IP: '::'.
+2023-01-08 20:40:38 0 [ERROR] InnoDB: Expected tablespace id 36 but found 8 in the file ./ms13/ban.ibd
+2023-01-08 20:40:38 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-01-08 20:40:38 0 [ERROR] InnoDB: Expected tablespace id 37 but found 9 in the file ./ms13/connection_log.ibd
+2023-01-08 20:40:38 0 [ERROR] InnoDB: Expected tablespace id 38 but found 10 in the file ./ms13/death.ibd
+2023-01-08 20:40:38 0 [ERROR] InnoDB: Expected tablespace id 39 but found 11 in the file ./ms13/ipintel.ibd
+2023-01-08 20:40:38 0 [ERROR] InnoDB: Expected tablespace id 40 but found 12 in the file ./ms13/legacy_population.ibd
+2023-01-08 20:40:38 0 [ERROR] InnoDB: Expected tablespace id 41 but found 13 in the file ./ms13/library.ibd
+2023-01-08 20:40:38 0 [ERROR] InnoDB: Expected tablespace id 42 but found 14 in the file ./ms13/messages.ibd
+2023-01-08 20:40:38 0 [ERROR] InnoDB: Expected tablespace id 43 but found 15 in the file ./ms13/role_time.ibd
+2023-01-08 20:40:38 0 [ERROR] InnoDB: Expected tablespace id 44 but found 16 in the file ./ms13/role_time_log.ibd
+2023-01-08 20:40:38 0 [ERROR] InnoDB: Expected tablespace id 45 but found 17 in the file ./ms13/player.ibd
+2023-01-08 20:40:38 0 [ERROR] InnoDB: Expected tablespace id 46 but found 18 in the file ./ms13/poll_option.ibd
+2023-01-08 20:40:38 0 [ERROR] InnoDB: Expected tablespace id 47 but found 19 in the file ./ms13/poll_question.ibd
+2023-01-08 20:40:38 0 [ERROR] InnoDB: Expected tablespace id 48 but found 20 in the file ./ms13/poll_textreply.ibd
+2023-01-08 20:40:38 0 [ERROR] InnoDB: Expected tablespace id 49 but found 21 in the file ./ms13/poll_vote.ibd
+2023-01-08 20:40:38 0 [ERROR] InnoDB: Expected tablespace id 50 but found 22 in the file ./ms13/round.ibd
+2023-01-08 20:40:38 0 [ERROR] InnoDB: Expected tablespace id 51 but found 23 in the file ./ms13/schema_revision.ibd
+2023-01-08 20:40:38 0 [ERROR] InnoDB: Expected tablespace id 52 but found 24 in the file ./ms13/stickyban.ibd
+2023-01-08 20:40:38 0 [ERROR] InnoDB: Expected tablespace id 53 but found 25 in the file ./ms13/stickyban_matched_ckey.ibd
+2023-01-08 20:40:38 0 [ERROR] InnoDB: Expected tablespace id 54 but found 26 in the file ./ms13/stickyban_matched_ip.ibd
+2023-01-08 20:40:38 0 [ERROR] InnoDB: Expected tablespace id 55 but found 27 in the file ./ms13/stickyban_matched_cid.ibd
+2023-01-08 20:40:38 0 [ERROR] InnoDB: Expected tablespace id 56 but found 28 in the file ./ms13/achievements.ibd
+2023-01-08 20:40:38 0 [ERROR] InnoDB: Expected tablespace id 57 but found 29 in the file ./ms13/achievement_metadata.ibd
+2023-01-08 20:40:38 0 [ERROR] InnoDB: Expected tablespace id 58 but found 30 in the file ./ms13/ticket.ibd
+2023-01-08 20:40:38 0 [ERROR] InnoDB: Expected tablespace id 59 but found 31 in the file ./ms13/discord_links.ibd
+2023-01-08 20:40:38 0 [Note] InnoDB: Buffer pool(s) load completed at 230108 20:40:38
+2023-01-08 20:40:39 0 [Note] C:\Program Files\MariaDB 10.10\bin\mysqld.exe: ready for connections.
+Version: '10.10.2-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2023-01-08 20:55:23 6 [Warning] Access denied for user 'root'@'localhost' (using password: NO)
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Expected tablespace id 57 but found 29 in the file ./ms13/achievement_metadata.ibd
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Table `ms13`.`achievement_metadata` is corrupted. Please drop the table and recreate.
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Expected tablespace id 56 but found 28 in the file ./ms13/achievements.ibd
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Table `ms13`.`achievements` is corrupted. Please drop the table and recreate.
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Expected tablespace id 33 but found 5 in the file ./ms13/admin.ibd
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Table `ms13`.`admin` is corrupted. Please drop the table and recreate.
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Expected tablespace id 34 but found 6 in the file ./ms13/admin_log.ibd
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Table `ms13`.`admin_log` is corrupted. Please drop the table and recreate.
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Expected tablespace id 35 but found 7 in the file ./ms13/admin_ranks.ibd
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Table `ms13`.`admin_ranks` is corrupted. Please drop the table and recreate.
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Expected tablespace id 36 but found 8 in the file ./ms13/ban.ibd
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Table `ms13`.`ban` is corrupted. Please drop the table and recreate.
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Expected tablespace id 37 but found 9 in the file ./ms13/connection_log.ibd
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Table `ms13`.`connection_log` is corrupted. Please drop the table and recreate.
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Expected tablespace id 38 but found 10 in the file ./ms13/death.ibd
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Table `ms13`.`death` is corrupted. Please drop the table and recreate.
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Expected tablespace id 59 but found 31 in the file ./ms13/discord_links.ibd
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Table `ms13`.`discord_links` is corrupted. Please drop the table and recreate.
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Expected tablespace id 39 but found 11 in the file ./ms13/ipintel.ibd
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Table `ms13`.`ipintel` is corrupted. Please drop the table and recreate.
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Expected tablespace id 40 but found 12 in the file ./ms13/legacy_population.ibd
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Table `ms13`.`legacy_population` is corrupted. Please drop the table and recreate.
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Expected tablespace id 41 but found 13 in the file ./ms13/library.ibd
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Table `ms13`.`library` is corrupted. Please drop the table and recreate.
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Expected tablespace id 42 but found 14 in the file ./ms13/messages.ibd
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Table `ms13`.`messages` is corrupted. Please drop the table and recreate.
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Expected tablespace id 45 but found 17 in the file ./ms13/player.ibd
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Table `ms13`.`player` is corrupted. Please drop the table and recreate.
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Expected tablespace id 46 but found 18 in the file ./ms13/poll_option.ibd
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Table `ms13`.`poll_option` is corrupted. Please drop the table and recreate.
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Expected tablespace id 47 but found 19 in the file ./ms13/poll_question.ibd
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Table `ms13`.`poll_question` is corrupted. Please drop the table and recreate.
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Expected tablespace id 48 but found 20 in the file ./ms13/poll_textreply.ibd
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Table `ms13`.`poll_textreply` is corrupted. Please drop the table and recreate.
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Expected tablespace id 49 but found 21 in the file ./ms13/poll_vote.ibd
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Table `ms13`.`poll_vote` is corrupted. Please drop the table and recreate.
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Expected tablespace id 43 but found 15 in the file ./ms13/role_time.ibd
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Table `ms13`.`role_time` is corrupted. Please drop the table and recreate.
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Expected tablespace id 44 but found 16 in the file ./ms13/role_time_log.ibd
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Table `ms13`.`role_time_log` is corrupted. Please drop the table and recreate.
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Expected tablespace id 50 but found 22 in the file ./ms13/round.ibd
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Table `ms13`.`round` is corrupted. Please drop the table and recreate.
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Expected tablespace id 51 but found 23 in the file ./ms13/schema_revision.ibd
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Table `ms13`.`schema_revision` is corrupted. Please drop the table and recreate.
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Expected tablespace id 52 but found 24 in the file ./ms13/stickyban.ibd
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Table `ms13`.`stickyban` is corrupted. Please drop the table and recreate.
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Expected tablespace id 55 but found 27 in the file ./ms13/stickyban_matched_cid.ibd
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Table `ms13`.`stickyban_matched_cid` is corrupted. Please drop the table and recreate.
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Expected tablespace id 53 but found 25 in the file ./ms13/stickyban_matched_ckey.ibd
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Table `ms13`.`stickyban_matched_ckey` is corrupted. Please drop the table and recreate.
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Expected tablespace id 54 but found 26 in the file ./ms13/stickyban_matched_ip.ibd
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Table `ms13`.`stickyban_matched_ip` is corrupted. Please drop the table and recreate.
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Expected tablespace id 58 but found 30 in the file ./ms13/ticket.ibd
+2023-01-08 20:55:30 7 [ERROR] InnoDB: Table `ms13`.`ticket` is corrupted. Please drop the table and recreate.
+2023-01-08 21:14:15 11 [Warning] Aborted connection 11 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 21:14:15 3 [Warning] Aborted connection 3 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 21:14:15 9 [Warning] Aborted connection 9 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 21:14:15 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 21:14:15 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 21:14:15 8 [Warning] Aborted connection 8 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 21:14:15 10 [Warning] Aborted connection 10 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 21:17:32 12 [Warning] Access denied for user 'root'@'localhost' (using password: NO)
+2023-01-08 21:22:10 13 [ERROR] mysqld.exe: Table ms13/achievement_metadata is corrupted. Please drop the table and recreate.
+2023-01-08 21:22:10 13 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 21:22:10 13 [ERROR] mysqld.exe: Table ms13/admin is corrupted. Please drop the table and recreate.
+2023-01-08 21:22:10 13 [ERROR] mysqld.exe: Table ms13/admin_log is corrupted. Please drop the table and recreate.
+2023-01-08 21:22:10 13 [ERROR] mysqld.exe: Table ms13/admin_ranks is corrupted. Please drop the table and recreate.
+2023-01-08 21:22:10 13 [ERROR] mysqld.exe: Table ms13/ban is corrupted. Please drop the table and recreate.
+2023-01-08 21:22:10 13 [ERROR] mysqld.exe: Table ms13/connection_log is corrupted. Please drop the table and recreate.
+2023-01-08 21:22:10 13 [ERROR] mysqld.exe: Table ms13/death is corrupted. Please drop the table and recreate.
+2023-01-08 21:22:10 13 [ERROR] mysqld.exe: Table ms13/discord_links is corrupted. Please drop the table and recreate.
+2023-01-08 21:22:10 13 [ERROR] mysqld.exe: Table ms13/ipintel is corrupted. Please drop the table and recreate.
+2023-01-08 21:22:10 13 [ERROR] mysqld.exe: Table ms13/legacy_population is corrupted. Please drop the table and recreate.
+2023-01-08 21:22:10 13 [ERROR] mysqld.exe: Table ms13/library is corrupted. Please drop the table and recreate.
+2023-01-08 21:22:10 13 [ERROR] mysqld.exe: Table ms13/messages is corrupted. Please drop the table and recreate.
+2023-01-08 21:22:10 13 [ERROR] mysqld.exe: Table ms13/player is corrupted. Please drop the table and recreate.
+2023-01-08 21:22:10 13 [ERROR] mysqld.exe: Table ms13/poll_option is corrupted. Please drop the table and recreate.
+2023-01-08 21:22:10 13 [ERROR] mysqld.exe: Table ms13/poll_question is corrupted. Please drop the table and recreate.
+2023-01-08 21:22:10 13 [ERROR] mysqld.exe: Table ms13/poll_textreply is corrupted. Please drop the table and recreate.
+2023-01-08 21:22:10 13 [ERROR] mysqld.exe: Table ms13/poll_vote is corrupted. Please drop the table and recreate.
+2023-01-08 21:22:10 13 [ERROR] mysqld.exe: Table ms13/role_time is corrupted. Please drop the table and recreate.
+2023-01-08 21:22:10 13 [ERROR] mysqld.exe: Table ms13/role_time_log is corrupted. Please drop the table and recreate.
+2023-01-08 21:22:10 13 [ERROR] mysqld.exe: Table ms13/round is corrupted. Please drop the table and recreate.
+2023-01-08 21:22:10 13 [ERROR] mysqld.exe: Table ms13/schema_revision is corrupted. Please drop the table and recreate.
+2023-01-08 21:22:10 13 [ERROR] mysqld.exe: Table ms13/stickyban is corrupted. Please drop the table and recreate.
+2023-01-08 21:22:10 13 [ERROR] mysqld.exe: Table ms13/stickyban_matched_cid is corrupted. Please drop the table and recreate.
+2023-01-08 21:22:10 13 [ERROR] mysqld.exe: Table ms13/stickyban_matched_ckey is corrupted. Please drop the table and recreate.
+2023-01-08 21:22:10 13 [ERROR] mysqld.exe: Table ms13/stickyban_matched_ip is corrupted. Please drop the table and recreate.
+2023-01-08 21:22:10 13 [ERROR] mysqld.exe: Table ms13/ticket is corrupted. Please drop the table and recreate.
+2023-01-08 21:26:31 18 [ERROR] mysqld.exe: Table ms13/achievement_metadata is corrupted. Please drop the table and recreate.
+2023-01-08 21:26:31 18 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 21:26:31 18 [ERROR] mysqld.exe: Table ms13/admin is corrupted. Please drop the table and recreate.
+2023-01-08 21:26:31 18 [ERROR] mysqld.exe: Table ms13/admin_log is corrupted. Please drop the table and recreate.
+2023-01-08 21:26:31 18 [ERROR] mysqld.exe: Table ms13/admin_ranks is corrupted. Please drop the table and recreate.
+2023-01-08 21:26:31 18 [ERROR] mysqld.exe: Table ms13/ban is corrupted. Please drop the table and recreate.
+2023-01-08 21:26:31 18 [ERROR] mysqld.exe: Table ms13/connection_log is corrupted. Please drop the table and recreate.
+2023-01-08 21:26:31 18 [ERROR] mysqld.exe: Table ms13/death is corrupted. Please drop the table and recreate.
+2023-01-08 21:26:31 18 [ERROR] mysqld.exe: Table ms13/discord_links is corrupted. Please drop the table and recreate.
+2023-01-08 21:26:31 18 [ERROR] mysqld.exe: Table ms13/ipintel is corrupted. Please drop the table and recreate.
+2023-01-08 21:26:31 18 [ERROR] mysqld.exe: Table ms13/legacy_population is corrupted. Please drop the table and recreate.
+2023-01-08 21:26:31 18 [ERROR] mysqld.exe: Table ms13/library is corrupted. Please drop the table and recreate.
+2023-01-08 21:26:31 18 [ERROR] mysqld.exe: Table ms13/messages is corrupted. Please drop the table and recreate.
+2023-01-08 21:26:31 18 [ERROR] mysqld.exe: Table ms13/player is corrupted. Please drop the table and recreate.
+2023-01-08 21:26:31 18 [ERROR] mysqld.exe: Table ms13/poll_option is corrupted. Please drop the table and recreate.
+2023-01-08 21:26:31 18 [ERROR] mysqld.exe: Table ms13/poll_question is corrupted. Please drop the table and recreate.
+2023-01-08 21:26:31 18 [ERROR] mysqld.exe: Table ms13/poll_textreply is corrupted. Please drop the table and recreate.
+2023-01-08 21:26:31 18 [ERROR] mysqld.exe: Table ms13/poll_vote is corrupted. Please drop the table and recreate.
+2023-01-08 21:26:31 18 [ERROR] mysqld.exe: Table ms13/role_time is corrupted. Please drop the table and recreate.
+2023-01-08 21:26:31 18 [ERROR] mysqld.exe: Table ms13/role_time_log is corrupted. Please drop the table and recreate.
+2023-01-08 21:26:31 18 [ERROR] mysqld.exe: Table ms13/round is corrupted. Please drop the table and recreate.
+2023-01-08 21:26:31 18 [ERROR] mysqld.exe: Table ms13/schema_revision is corrupted. Please drop the table and recreate.
+2023-01-08 21:26:31 18 [ERROR] mysqld.exe: Table ms13/stickyban is corrupted. Please drop the table and recreate.
+2023-01-08 21:26:31 18 [ERROR] mysqld.exe: Table ms13/stickyban_matched_cid is corrupted. Please drop the table and recreate.
+2023-01-08 21:26:31 18 [ERROR] mysqld.exe: Table ms13/stickyban_matched_ckey is corrupted. Please drop the table and recreate.
+2023-01-08 21:26:31 18 [ERROR] mysqld.exe: Table ms13/stickyban_matched_ip is corrupted. Please drop the table and recreate.
+2023-01-08 21:26:31 18 [ERROR] mysqld.exe: Table ms13/ticket is corrupted. Please drop the table and recreate.
+2023-01-08 21:37:43 14 [Warning] Aborted connection 14 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 21:37:43 17 [Warning] Aborted connection 17 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 21:37:43 16 [Warning] Aborted connection 16 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 21:37:43 15 [Warning] Aborted connection 15 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 22:15:26 24 [Warning] Aborted connection 24 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 22:15:26 23 [Warning] Aborted connection 23 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 22:22:36 25 [ERROR] mysqld.exe: Table ms13/achievement_metadata is corrupted. Please drop the table and recreate.
+2023-01-08 22:22:36 25 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:22:36 25 [ERROR] mysqld.exe: Table ms13/admin is corrupted. Please drop the table and recreate.
+2023-01-08 22:22:36 25 [ERROR] mysqld.exe: Table ms13/admin_log is corrupted. Please drop the table and recreate.
+2023-01-08 22:22:36 25 [ERROR] mysqld.exe: Table ms13/admin_ranks is corrupted. Please drop the table and recreate.
+2023-01-08 22:22:36 25 [ERROR] mysqld.exe: Table ms13/ban is corrupted. Please drop the table and recreate.
+2023-01-08 22:22:36 25 [ERROR] mysqld.exe: Table ms13/connection_log is corrupted. Please drop the table and recreate.
+2023-01-08 22:22:36 25 [ERROR] mysqld.exe: Table ms13/death is corrupted. Please drop the table and recreate.
+2023-01-08 22:22:36 25 [ERROR] mysqld.exe: Table ms13/discord_links is corrupted. Please drop the table and recreate.
+2023-01-08 22:22:36 25 [ERROR] mysqld.exe: Table ms13/ipintel is corrupted. Please drop the table and recreate.
+2023-01-08 22:22:36 25 [ERROR] mysqld.exe: Table ms13/legacy_population is corrupted. Please drop the table and recreate.
+2023-01-08 22:22:36 25 [ERROR] mysqld.exe: Table ms13/library is corrupted. Please drop the table and recreate.
+2023-01-08 22:22:36 25 [ERROR] mysqld.exe: Table ms13/messages is corrupted. Please drop the table and recreate.
+2023-01-08 22:22:36 25 [ERROR] mysqld.exe: Table ms13/player is corrupted. Please drop the table and recreate.
+2023-01-08 22:22:36 25 [ERROR] mysqld.exe: Table ms13/poll_option is corrupted. Please drop the table and recreate.
+2023-01-08 22:22:36 25 [ERROR] mysqld.exe: Table ms13/poll_question is corrupted. Please drop the table and recreate.
+2023-01-08 22:22:36 25 [ERROR] mysqld.exe: Table ms13/poll_textreply is corrupted. Please drop the table and recreate.
+2023-01-08 22:22:36 25 [ERROR] mysqld.exe: Table ms13/poll_vote is corrupted. Please drop the table and recreate.
+2023-01-08 22:22:36 25 [ERROR] mysqld.exe: Table ms13/role_time is corrupted. Please drop the table and recreate.
+2023-01-08 22:22:36 25 [ERROR] mysqld.exe: Table ms13/role_time_log is corrupted. Please drop the table and recreate.
+2023-01-08 22:22:36 25 [ERROR] mysqld.exe: Table ms13/round is corrupted. Please drop the table and recreate.
+2023-01-08 22:22:36 25 [ERROR] mysqld.exe: Table ms13/schema_revision is corrupted. Please drop the table and recreate.
+2023-01-08 22:22:36 25 [ERROR] mysqld.exe: Table ms13/stickyban is corrupted. Please drop the table and recreate.
+2023-01-08 22:22:36 25 [ERROR] mysqld.exe: Table ms13/stickyban_matched_cid is corrupted. Please drop the table and recreate.
+2023-01-08 22:22:36 25 [ERROR] mysqld.exe: Table ms13/stickyban_matched_ckey is corrupted. Please drop the table and recreate.
+2023-01-08 22:22:36 25 [ERROR] mysqld.exe: Table ms13/stickyban_matched_ip is corrupted. Please drop the table and recreate.
+2023-01-08 22:22:36 25 [ERROR] mysqld.exe: Table ms13/ticket is corrupted. Please drop the table and recreate.
+2023-01-08 22:24:21 26 [ERROR] mysqld.exe: Table ms13/achievement_metadata is corrupted. Please drop the table and recreate.
+2023-01-08 22:24:21 26 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:24:21 26 [ERROR] mysqld.exe: Table ms13/admin is corrupted. Please drop the table and recreate.
+2023-01-08 22:24:21 26 [ERROR] mysqld.exe: Table ms13/admin_log is corrupted. Please drop the table and recreate.
+2023-01-08 22:24:21 26 [ERROR] mysqld.exe: Table ms13/admin_ranks is corrupted. Please drop the table and recreate.
+2023-01-08 22:24:21 26 [ERROR] mysqld.exe: Table ms13/ban is corrupted. Please drop the table and recreate.
+2023-01-08 22:24:21 26 [ERROR] mysqld.exe: Table ms13/connection_log is corrupted. Please drop the table and recreate.
+2023-01-08 22:24:21 26 [ERROR] mysqld.exe: Table ms13/death is corrupted. Please drop the table and recreate.
+2023-01-08 22:24:21 26 [ERROR] mysqld.exe: Table ms13/discord_links is corrupted. Please drop the table and recreate.
+2023-01-08 22:24:21 26 [ERROR] mysqld.exe: Table ms13/ipintel is corrupted. Please drop the table and recreate.
+2023-01-08 22:24:21 26 [ERROR] mysqld.exe: Table ms13/legacy_population is corrupted. Please drop the table and recreate.
+2023-01-08 22:24:21 26 [ERROR] mysqld.exe: Table ms13/library is corrupted. Please drop the table and recreate.
+2023-01-08 22:24:21 26 [ERROR] mysqld.exe: Table ms13/messages is corrupted. Please drop the table and recreate.
+2023-01-08 22:24:21 26 [ERROR] mysqld.exe: Table ms13/player is corrupted. Please drop the table and recreate.
+2023-01-08 22:24:21 26 [ERROR] mysqld.exe: Table ms13/poll_option is corrupted. Please drop the table and recreate.
+2023-01-08 22:24:21 26 [ERROR] mysqld.exe: Table ms13/poll_question is corrupted. Please drop the table and recreate.
+2023-01-08 22:24:21 26 [ERROR] mysqld.exe: Table ms13/poll_textreply is corrupted. Please drop the table and recreate.
+2023-01-08 22:24:21 26 [ERROR] mysqld.exe: Table ms13/poll_vote is corrupted. Please drop the table and recreate.
+2023-01-08 22:24:21 26 [ERROR] mysqld.exe: Table ms13/role_time is corrupted. Please drop the table and recreate.
+2023-01-08 22:24:21 26 [ERROR] mysqld.exe: Table ms13/role_time_log is corrupted. Please drop the table and recreate.
+2023-01-08 22:24:21 26 [ERROR] mysqld.exe: Table ms13/round is corrupted. Please drop the table and recreate.
+2023-01-08 22:24:21 26 [ERROR] mysqld.exe: Table ms13/schema_revision is corrupted. Please drop the table and recreate.
+2023-01-08 22:24:21 26 [ERROR] mysqld.exe: Table ms13/stickyban is corrupted. Please drop the table and recreate.
+2023-01-08 22:24:21 26 [ERROR] mysqld.exe: Table ms13/stickyban_matched_cid is corrupted. Please drop the table and recreate.
+2023-01-08 22:24:21 26 [ERROR] mysqld.exe: Table ms13/stickyban_matched_ckey is corrupted. Please drop the table and recreate.
+2023-01-08 22:24:21 26 [ERROR] mysqld.exe: Table ms13/stickyban_matched_ip is corrupted. Please drop the table and recreate.
+2023-01-08 22:24:21 26 [ERROR] mysqld.exe: Table ms13/ticket is corrupted. Please drop the table and recreate.
+2023-01-08 22:25:17 27 [ERROR] mysqld.exe: Table ms13/achievement_metadata is corrupted. Please drop the table and recreate.
+2023-01-08 22:25:17 27 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:25:17 27 [ERROR] mysqld.exe: Table ms13/admin is corrupted. Please drop the table and recreate.
+2023-01-08 22:25:17 27 [ERROR] mysqld.exe: Table ms13/admin_log is corrupted. Please drop the table and recreate.
+2023-01-08 22:25:17 27 [ERROR] mysqld.exe: Table ms13/admin_ranks is corrupted. Please drop the table and recreate.
+2023-01-08 22:25:17 27 [ERROR] mysqld.exe: Table ms13/ban is corrupted. Please drop the table and recreate.
+2023-01-08 22:25:17 27 [ERROR] mysqld.exe: Table ms13/connection_log is corrupted. Please drop the table and recreate.
+2023-01-08 22:25:17 27 [ERROR] mysqld.exe: Table ms13/death is corrupted. Please drop the table and recreate.
+2023-01-08 22:25:17 27 [ERROR] mysqld.exe: Table ms13/discord_links is corrupted. Please drop the table and recreate.
+2023-01-08 22:25:17 27 [ERROR] mysqld.exe: Table ms13/ipintel is corrupted. Please drop the table and recreate.
+2023-01-08 22:25:17 27 [ERROR] mysqld.exe: Table ms13/legacy_population is corrupted. Please drop the table and recreate.
+2023-01-08 22:25:17 27 [ERROR] mysqld.exe: Table ms13/library is corrupted. Please drop the table and recreate.
+2023-01-08 22:25:17 27 [ERROR] mysqld.exe: Table ms13/messages is corrupted. Please drop the table and recreate.
+2023-01-08 22:25:17 27 [ERROR] mysqld.exe: Table ms13/player is corrupted. Please drop the table and recreate.
+2023-01-08 22:25:17 27 [ERROR] mysqld.exe: Table ms13/poll_option is corrupted. Please drop the table and recreate.
+2023-01-08 22:25:17 27 [ERROR] mysqld.exe: Table ms13/poll_question is corrupted. Please drop the table and recreate.
+2023-01-08 22:25:17 27 [ERROR] mysqld.exe: Table ms13/poll_textreply is corrupted. Please drop the table and recreate.
+2023-01-08 22:25:17 27 [ERROR] mysqld.exe: Table ms13/poll_vote is corrupted. Please drop the table and recreate.
+2023-01-08 22:25:17 27 [ERROR] mysqld.exe: Table ms13/role_time is corrupted. Please drop the table and recreate.
+2023-01-08 22:25:17 27 [ERROR] mysqld.exe: Table ms13/role_time_log is corrupted. Please drop the table and recreate.
+2023-01-08 22:25:17 27 [ERROR] mysqld.exe: Table ms13/round is corrupted. Please drop the table and recreate.
+2023-01-08 22:25:17 27 [ERROR] mysqld.exe: Table ms13/schema_revision is corrupted. Please drop the table and recreate.
+2023-01-08 22:25:17 27 [ERROR] mysqld.exe: Table ms13/stickyban is corrupted. Please drop the table and recreate.
+2023-01-08 22:25:17 27 [ERROR] mysqld.exe: Table ms13/stickyban_matched_cid is corrupted. Please drop the table and recreate.
+2023-01-08 22:25:17 27 [ERROR] mysqld.exe: Table ms13/stickyban_matched_ckey is corrupted. Please drop the table and recreate.
+2023-01-08 22:25:17 27 [ERROR] mysqld.exe: Table ms13/stickyban_matched_ip is corrupted. Please drop the table and recreate.
+2023-01-08 22:25:17 27 [ERROR] mysqld.exe: Table ms13/ticket is corrupted. Please drop the table and recreate.
+2023-01-08 22:34:11 32 [ERROR] mysqld.exe: Table ms13/achievement_metadata is corrupted. Please drop the table and recreate.
+2023-01-08 22:34:11 32 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:34:11 32 [ERROR] mysqld.exe: Table ms13/admin is corrupted. Please drop the table and recreate.
+2023-01-08 22:34:11 32 [ERROR] mysqld.exe: Table ms13/admin_log is corrupted. Please drop the table and recreate.
+2023-01-08 22:34:11 32 [ERROR] mysqld.exe: Table ms13/admin_ranks is corrupted. Please drop the table and recreate.
+2023-01-08 22:34:11 32 [ERROR] mysqld.exe: Table ms13/ban is corrupted. Please drop the table and recreate.
+2023-01-08 22:34:11 32 [ERROR] mysqld.exe: Table ms13/connection_log is corrupted. Please drop the table and recreate.
+2023-01-08 22:34:11 32 [ERROR] mysqld.exe: Table ms13/death is corrupted. Please drop the table and recreate.
+2023-01-08 22:34:11 32 [ERROR] mysqld.exe: Table ms13/discord_links is corrupted. Please drop the table and recreate.
+2023-01-08 22:34:11 32 [ERROR] mysqld.exe: Table ms13/ipintel is corrupted. Please drop the table and recreate.
+2023-01-08 22:34:11 32 [ERROR] mysqld.exe: Table ms13/legacy_population is corrupted. Please drop the table and recreate.
+2023-01-08 22:34:11 32 [ERROR] mysqld.exe: Table ms13/library is corrupted. Please drop the table and recreate.
+2023-01-08 22:34:11 32 [ERROR] mysqld.exe: Table ms13/messages is corrupted. Please drop the table and recreate.
+2023-01-08 22:34:11 32 [ERROR] mysqld.exe: Table ms13/player is corrupted. Please drop the table and recreate.
+2023-01-08 22:34:11 32 [ERROR] mysqld.exe: Table ms13/poll_option is corrupted. Please drop the table and recreate.
+2023-01-08 22:34:11 32 [ERROR] mysqld.exe: Table ms13/poll_question is corrupted. Please drop the table and recreate.
+2023-01-08 22:34:11 32 [ERROR] mysqld.exe: Table ms13/poll_textreply is corrupted. Please drop the table and recreate.
+2023-01-08 22:34:11 32 [ERROR] mysqld.exe: Table ms13/poll_vote is corrupted. Please drop the table and recreate.
+2023-01-08 22:34:11 32 [ERROR] mysqld.exe: Table ms13/role_time is corrupted. Please drop the table and recreate.
+2023-01-08 22:34:11 32 [ERROR] mysqld.exe: Table ms13/role_time_log is corrupted. Please drop the table and recreate.
+2023-01-08 22:34:11 32 [ERROR] mysqld.exe: Table ms13/round is corrupted. Please drop the table and recreate.
+2023-01-08 22:34:11 32 [ERROR] mysqld.exe: Table ms13/schema_revision is corrupted. Please drop the table and recreate.
+2023-01-08 22:34:11 32 [ERROR] mysqld.exe: Table ms13/stickyban is corrupted. Please drop the table and recreate.
+2023-01-08 22:34:11 32 [ERROR] mysqld.exe: Table ms13/stickyban_matched_cid is corrupted. Please drop the table and recreate.
+2023-01-08 22:34:11 32 [ERROR] mysqld.exe: Table ms13/stickyban_matched_ckey is corrupted. Please drop the table and recreate.
+2023-01-08 22:34:11 32 [ERROR] mysqld.exe: Table ms13/stickyban_matched_ip is corrupted. Please drop the table and recreate.
+2023-01-08 22:34:11 32 [ERROR] mysqld.exe: Table ms13/ticket is corrupted. Please drop the table and recreate.
+2023-01-08 22:43:32 37 [ERROR] mysqld.exe: Table ms13/admin_ranks is corrupted. Please drop the table and recreate.
+2023-01-08 22:43:32 37 [ERROR] mysqld.exe: Table ms13/admin is corrupted. Please drop the table and recreate.
+2023-01-08 22:43:32 37 [ERROR] mysqld.exe: Table ms13/schema_revision is corrupted. Please drop the table and recreate.
+2023-01-08 22:43:33 37 [ERROR] mysqld.exe: Table ms13/round is corrupted. Please drop the table and recreate.
+2023-01-08 22:43:34 37 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:43:34 37 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:43:34 37 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:43:34 37 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:43:34 37 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:43:34 37 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:43:34 37 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:43:34 37 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:43:34 37 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:43:34 37 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:43:34 37 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:43:34 37 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:43:34 37 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:43:34 37 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:43:34 37 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:43:34 37 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:43:34 37 [ERROR] mysqld.exe: Table ms13/achievement_metadata is corrupted. Please drop the table and recreate.
+2023-01-08 22:43:38 37 [ERROR] mysqld.exe: Table ms13/round is corrupted. Please drop the table and recreate.
+2023-01-08 22:45:28 37 [ERROR] mysqld.exe: Table ms13/stickyban is corrupted. Please drop the table and recreate.
+2023-01-08 22:45:28 38 [ERROR] mysqld.exe: Table ms13/stickyban_matched_ckey is corrupted. Please drop the table and recreate.
+2023-01-08 22:45:28 39 [ERROR] mysqld.exe: Table ms13/stickyban_matched_cid is corrupted. Please drop the table and recreate.
+2023-01-08 22:45:28 40 [ERROR] mysqld.exe: Table ms13/stickyban_matched_ip is corrupted. Please drop the table and recreate.
+2023-01-08 22:46:45 37 [ERROR] mysqld.exe: Table ms13/ban is corrupted. Please drop the table and recreate.
+2023-01-08 22:47:44 39 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:47:44 38 [ERROR] mysqld.exe: Table ms13/poll_question is corrupted. Please drop the table and recreate.
+2023-01-08 22:47:44 40 [ERROR] mysqld.exe: Table ms13/messages is corrupted. Please drop the table and recreate.
+2023-01-08 22:47:44 37 [ERROR] mysqld.exe: Table ms13/player is corrupted. Please drop the table and recreate.
+2023-01-08 22:47:44 39 [ERROR] mysqld.exe: Table ms13/messages is corrupted. Please drop the table and recreate.
+2023-01-08 22:47:44 38 [ERROR] mysqld.exe: Table ms13/player is corrupted. Please drop the table and recreate.
+2023-01-08 22:47:44 40 [ERROR] mysqld.exe: Table ms13/messages is corrupted. Please drop the table and recreate.
+2023-01-08 22:48:32 39 [ERROR] mysqld.exe: Table ms13/poll_question is corrupted. Please drop the table and recreate.
+2023-01-08 22:48:32 38 [ERROR] mysqld.exe: Table ms13/round is corrupted. Please drop the table and recreate.
+2023-01-08 22:48:32 40 [ERROR] mysqld.exe: Table ms13/round is corrupted. Please drop the table and recreate.
+2023-01-08 22:48:33 37 [ERROR] mysqld.exe: Table ms13/legacy_population is corrupted. Please drop the table and recreate.
+2023-01-08 22:48:45 31 [Warning] Aborted connection 31 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 22:48:45 38 [Warning] Aborted connection 38 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 22:48:45 30 [Warning] Aborted connection 30 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 22:48:45 29 [Warning] Aborted connection 29 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 22:48:45 33 [Warning] Aborted connection 33 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 22:48:45 34 [Warning] Aborted connection 34 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 22:48:45 36 [Warning] Aborted connection 36 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 22:48:45 40 [Warning] Aborted connection 40 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 22:48:45 39 [Warning] Aborted connection 39 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 22:48:45 35 [Warning] Aborted connection 35 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 22:48:45 37 [Warning] Aborted connection 37 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 22:48:45 28 [Warning] Aborted connection 28 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 22:52:34 41 [ERROR] mysqld.exe: Table ms13/achievement_metadata is corrupted. Please drop the table and recreate.
+2023-01-08 22:52:34 41 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:52:34 41 [ERROR] mysqld.exe: Table ms13/admin is corrupted. Please drop the table and recreate.
+2023-01-08 22:52:34 41 [ERROR] mysqld.exe: Table ms13/admin_log is corrupted. Please drop the table and recreate.
+2023-01-08 22:52:34 41 [ERROR] mysqld.exe: Table ms13/admin_ranks is corrupted. Please drop the table and recreate.
+2023-01-08 22:52:34 41 [ERROR] mysqld.exe: Table ms13/ban is corrupted. Please drop the table and recreate.
+2023-01-08 22:52:34 41 [ERROR] mysqld.exe: Table ms13/connection_log is corrupted. Please drop the table and recreate.
+2023-01-08 22:52:34 41 [ERROR] mysqld.exe: Table ms13/death is corrupted. Please drop the table and recreate.
+2023-01-08 22:52:34 41 [ERROR] mysqld.exe: Table ms13/discord_links is corrupted. Please drop the table and recreate.
+2023-01-08 22:52:34 41 [ERROR] mysqld.exe: Table ms13/ipintel is corrupted. Please drop the table and recreate.
+2023-01-08 22:52:34 41 [ERROR] mysqld.exe: Table ms13/legacy_population is corrupted. Please drop the table and recreate.
+2023-01-08 22:52:34 41 [ERROR] mysqld.exe: Table ms13/library is corrupted. Please drop the table and recreate.
+2023-01-08 22:52:34 41 [ERROR] mysqld.exe: Table ms13/messages is corrupted. Please drop the table and recreate.
+2023-01-08 22:52:34 41 [ERROR] mysqld.exe: Table ms13/player is corrupted. Please drop the table and recreate.
+2023-01-08 22:52:34 41 [ERROR] mysqld.exe: Table ms13/poll_option is corrupted. Please drop the table and recreate.
+2023-01-08 22:52:34 41 [ERROR] mysqld.exe: Table ms13/poll_question is corrupted. Please drop the table and recreate.
+2023-01-08 22:52:34 41 [ERROR] mysqld.exe: Table ms13/poll_textreply is corrupted. Please drop the table and recreate.
+2023-01-08 22:52:34 41 [ERROR] mysqld.exe: Table ms13/poll_vote is corrupted. Please drop the table and recreate.
+2023-01-08 22:52:34 41 [ERROR] mysqld.exe: Table ms13/role_time is corrupted. Please drop the table and recreate.
+2023-01-08 22:52:34 41 [ERROR] mysqld.exe: Table ms13/role_time_log is corrupted. Please drop the table and recreate.
+2023-01-08 22:52:34 41 [ERROR] mysqld.exe: Table ms13/round is corrupted. Please drop the table and recreate.
+2023-01-08 22:52:34 41 [ERROR] mysqld.exe: Table ms13/schema_revision is corrupted. Please drop the table and recreate.
+2023-01-08 22:52:34 41 [ERROR] mysqld.exe: Table ms13/stickyban is corrupted. Please drop the table and recreate.
+2023-01-08 22:52:34 41 [ERROR] mysqld.exe: Table ms13/stickyban_matched_cid is corrupted. Please drop the table and recreate.
+2023-01-08 22:52:34 41 [ERROR] mysqld.exe: Table ms13/stickyban_matched_ckey is corrupted. Please drop the table and recreate.
+2023-01-08 22:52:34 41 [ERROR] mysqld.exe: Table ms13/stickyban_matched_ip is corrupted. Please drop the table and recreate.
+2023-01-08 22:52:34 41 [ERROR] mysqld.exe: Table ms13/ticket is corrupted. Please drop the table and recreate.
+2023-01-08 22:57:07 42 [ERROR] mysqld.exe: Table ms13/admin_ranks is corrupted. Please drop the table and recreate.
+2023-01-08 22:57:07 42 [ERROR] mysqld.exe: Table ms13/admin is corrupted. Please drop the table and recreate.
+2023-01-08 22:57:07 42 [ERROR] mysqld.exe: Table ms13/schema_revision is corrupted. Please drop the table and recreate.
+2023-01-08 22:57:07 42 [ERROR] mysqld.exe: Table ms13/round is corrupted. Please drop the table and recreate.
+2023-01-08 22:57:08 42 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:57:08 42 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:57:08 42 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:57:08 42 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:57:08 42 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:57:08 42 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:57:08 42 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:57:08 42 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:57:08 42 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:57:08 42 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:57:08 42 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:57:09 42 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:57:09 42 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:57:09 42 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:57:09 42 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:57:09 42 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 22:57:09 42 [ERROR] mysqld.exe: Table ms13/achievement_metadata is corrupted. Please drop the table and recreate.
+2023-01-08 22:57:13 42 [ERROR] mysqld.exe: Table ms13/round is corrupted. Please drop the table and recreate.
+2023-01-08 22:58:53 42 [ERROR] mysqld.exe: Table ms13/stickyban is corrupted. Please drop the table and recreate.
+2023-01-08 22:58:53 43 [ERROR] mysqld.exe: Table ms13/stickyban_matched_ckey is corrupted. Please drop the table and recreate.
+2023-01-08 22:58:53 44 [ERROR] mysqld.exe: Table ms13/stickyban_matched_cid is corrupted. Please drop the table and recreate.
+2023-01-08 22:58:53 45 [ERROR] mysqld.exe: Table ms13/stickyban_matched_ip is corrupted. Please drop the table and recreate.
+2023-01-08 23:03:34 42 [ERROR] mysqld.exe: Table ms13/ban is corrupted. Please drop the table and recreate.
+2023-01-08 23:03:37 44 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 23:03:37 43 [ERROR] mysqld.exe: Table ms13/poll_question is corrupted. Please drop the table and recreate.
+2023-01-08 23:03:37 45 [ERROR] mysqld.exe: Table ms13/messages is corrupted. Please drop the table and recreate.
+2023-01-08 23:03:37 42 [ERROR] mysqld.exe: Table ms13/player is corrupted. Please drop the table and recreate.
+2023-01-08 23:03:37 44 [ERROR] mysqld.exe: Table ms13/messages is corrupted. Please drop the table and recreate.
+2023-01-08 23:03:37 43 [ERROR] mysqld.exe: Table ms13/player is corrupted. Please drop the table and recreate.
+2023-01-08 23:03:37 45 [ERROR] mysqld.exe: Table ms13/messages is corrupted. Please drop the table and recreate.
+2023-01-08 23:03:43 44 [ERROR] mysqld.exe: Table ms13/ban is corrupted. Please drop the table and recreate.
+2023-01-08 23:03:43 43 [ERROR] mysqld.exe: Table ms13/ban is corrupted. Please drop the table and recreate.
+2023-01-08 23:05:12 45 [ERROR] mysqld.exe: Table ms13/poll_question is corrupted. Please drop the table and recreate.
+2023-01-08 23:05:12 42 [ERROR] mysqld.exe: Table ms13/round is corrupted. Please drop the table and recreate.
+2023-01-08 23:05:12 44 [ERROR] mysqld.exe: Table ms13/round is corrupted. Please drop the table and recreate.
+2023-01-08 23:05:14 43 [ERROR] mysqld.exe: Table ms13/legacy_population is corrupted. Please drop the table and recreate.
+2023-01-08 23:09:09 45 [ERROR] mysqld.exe: Table ms13/ban is corrupted. Please drop the table and recreate.
+2023-01-08 23:12:01 42 [ERROR] mysqld.exe: Table ms13/ban is corrupted. Please drop the table and recreate.
+2023-01-08 23:12:31 44 [ERROR] mysqld.exe: Table ms13/ban is corrupted. Please drop the table and recreate.
+2023-01-08 23:12:50 43 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 23:12:50 45 [ERROR] mysqld.exe: Table ms13/poll_question is corrupted. Please drop the table and recreate.
+2023-01-08 23:12:50 42 [ERROR] mysqld.exe: Table ms13/messages is corrupted. Please drop the table and recreate.
+2023-01-08 23:12:50 44 [ERROR] mysqld.exe: Table ms13/player is corrupted. Please drop the table and recreate.
+2023-01-08 23:12:50 43 [ERROR] mysqld.exe: Table ms13/messages is corrupted. Please drop the table and recreate.
+2023-01-08 23:12:50 45 [ERROR] mysqld.exe: Table ms13/player is corrupted. Please drop the table and recreate.
+2023-01-08 23:12:51 42 [ERROR] mysqld.exe: Table ms13/messages is corrupted. Please drop the table and recreate.
+2023-01-08 23:13:18 43 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 23:13:18 45 [ERROR] mysqld.exe: Table ms13/player is corrupted. Please drop the table and recreate.
+2023-01-08 23:13:18 42 [ERROR] mysqld.exe: Table ms13/player is corrupted. Please drop the table and recreate.
+2023-01-08 23:13:18 44 [ERROR] mysqld.exe: Table ms13/poll_question is corrupted. Please drop the table and recreate.
+2023-01-08 23:13:18 43 [ERROR] mysqld.exe: Table ms13/messages is corrupted. Please drop the table and recreate.
+2023-01-08 23:13:18 45 [ERROR] mysqld.exe: Table ms13/player is corrupted. Please drop the table and recreate.
+2023-01-08 23:13:18 42 [ERROR] mysqld.exe: Table ms13/messages is corrupted. Please drop the table and recreate.
+2023-01-08 23:13:31 43 [ERROR] mysqld.exe: Table ms13/ban is corrupted. Please drop the table and recreate.
+2023-01-08 23:13:53 44 [ERROR] mysqld.exe: Table ms13/player is corrupted. Please drop the table and recreate.
+2023-01-08 23:13:53 45 [ERROR] mysqld.exe: Table ms13/player is corrupted. Please drop the table and recreate.
+2023-01-08 23:16:46 41 [ERROR] mysqld.exe: Table ms13/achievement_metadata is corrupted. Please drop the table and recreate.
+2023-01-08 23:16:46 41 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 23:16:46 41 [ERROR] mysqld.exe: Table ms13/admin is corrupted. Please drop the table and recreate.
+2023-01-08 23:16:46 41 [ERROR] mysqld.exe: Table ms13/admin_log is corrupted. Please drop the table and recreate.
+2023-01-08 23:16:46 41 [ERROR] mysqld.exe: Table ms13/admin_ranks is corrupted. Please drop the table and recreate.
+2023-01-08 23:16:46 41 [ERROR] mysqld.exe: Table ms13/ban is corrupted. Please drop the table and recreate.
+2023-01-08 23:16:46 41 [ERROR] mysqld.exe: Table ms13/connection_log is corrupted. Please drop the table and recreate.
+2023-01-08 23:16:46 41 [ERROR] mysqld.exe: Table ms13/death is corrupted. Please drop the table and recreate.
+2023-01-08 23:16:46 41 [ERROR] mysqld.exe: Table ms13/discord_links is corrupted. Please drop the table and recreate.
+2023-01-08 23:16:46 41 [ERROR] mysqld.exe: Table ms13/ipintel is corrupted. Please drop the table and recreate.
+2023-01-08 23:16:46 41 [ERROR] mysqld.exe: Table ms13/legacy_population is corrupted. Please drop the table and recreate.
+2023-01-08 23:16:46 41 [ERROR] mysqld.exe: Table ms13/library is corrupted. Please drop the table and recreate.
+2023-01-08 23:16:46 41 [ERROR] mysqld.exe: Table ms13/messages is corrupted. Please drop the table and recreate.
+2023-01-08 23:16:46 41 [ERROR] mysqld.exe: Table ms13/player is corrupted. Please drop the table and recreate.
+2023-01-08 23:16:46 41 [ERROR] mysqld.exe: Table ms13/poll_option is corrupted. Please drop the table and recreate.
+2023-01-08 23:16:46 41 [ERROR] mysqld.exe: Table ms13/poll_question is corrupted. Please drop the table and recreate.
+2023-01-08 23:16:46 41 [ERROR] mysqld.exe: Table ms13/poll_textreply is corrupted. Please drop the table and recreate.
+2023-01-08 23:16:46 41 [ERROR] mysqld.exe: Table ms13/poll_vote is corrupted. Please drop the table and recreate.
+2023-01-08 23:16:46 41 [ERROR] mysqld.exe: Table ms13/role_time is corrupted. Please drop the table and recreate.
+2023-01-08 23:16:46 41 [ERROR] mysqld.exe: Table ms13/role_time_log is corrupted. Please drop the table and recreate.
+2023-01-08 23:16:46 41 [ERROR] mysqld.exe: Table ms13/round is corrupted. Please drop the table and recreate.
+2023-01-08 23:16:46 41 [ERROR] mysqld.exe: Table ms13/schema_revision is corrupted. Please drop the table and recreate.
+2023-01-08 23:16:46 41 [ERROR] mysqld.exe: Table ms13/stickyban is corrupted. Please drop the table and recreate.
+2023-01-08 23:16:46 41 [ERROR] mysqld.exe: Table ms13/stickyban_matched_cid is corrupted. Please drop the table and recreate.
+2023-01-08 23:16:46 41 [ERROR] mysqld.exe: Table ms13/stickyban_matched_ckey is corrupted. Please drop the table and recreate.
+2023-01-08 23:16:46 41 [ERROR] mysqld.exe: Table ms13/stickyban_matched_ip is corrupted. Please drop the table and recreate.
+2023-01-08 23:16:46 41 [ERROR] mysqld.exe: Table ms13/ticket is corrupted. Please drop the table and recreate.
+2023-01-08 23:17:54 46 [ERROR] mysqld.exe: Table ms13/achievement_metadata is corrupted. Please drop the table and recreate.
+2023-01-08 23:17:54 46 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 23:17:54 46 [ERROR] mysqld.exe: Table ms13/admin is corrupted. Please drop the table and recreate.
+2023-01-08 23:17:54 46 [ERROR] mysqld.exe: Table ms13/admin_log is corrupted. Please drop the table and recreate.
+2023-01-08 23:17:54 46 [ERROR] mysqld.exe: Table ms13/admin_ranks is corrupted. Please drop the table and recreate.
+2023-01-08 23:17:54 46 [ERROR] mysqld.exe: Table ms13/ban is corrupted. Please drop the table and recreate.
+2023-01-08 23:17:54 46 [ERROR] mysqld.exe: Table ms13/connection_log is corrupted. Please drop the table and recreate.
+2023-01-08 23:17:54 46 [ERROR] mysqld.exe: Table ms13/death is corrupted. Please drop the table and recreate.
+2023-01-08 23:17:54 46 [ERROR] mysqld.exe: Table ms13/discord_links is corrupted. Please drop the table and recreate.
+2023-01-08 23:17:54 46 [ERROR] mysqld.exe: Table ms13/ipintel is corrupted. Please drop the table and recreate.
+2023-01-08 23:17:54 46 [ERROR] mysqld.exe: Table ms13/legacy_population is corrupted. Please drop the table and recreate.
+2023-01-08 23:17:54 46 [ERROR] mysqld.exe: Table ms13/library is corrupted. Please drop the table and recreate.
+2023-01-08 23:17:54 46 [ERROR] mysqld.exe: Table ms13/messages is corrupted. Please drop the table and recreate.
+2023-01-08 23:17:54 46 [ERROR] mysqld.exe: Table ms13/player is corrupted. Please drop the table and recreate.
+2023-01-08 23:17:54 46 [ERROR] mysqld.exe: Table ms13/poll_option is corrupted. Please drop the table and recreate.
+2023-01-08 23:17:54 46 [ERROR] mysqld.exe: Table ms13/poll_question is corrupted. Please drop the table and recreate.
+2023-01-08 23:17:54 46 [ERROR] mysqld.exe: Table ms13/poll_textreply is corrupted. Please drop the table and recreate.
+2023-01-08 23:17:54 46 [ERROR] mysqld.exe: Table ms13/poll_vote is corrupted. Please drop the table and recreate.
+2023-01-08 23:17:54 46 [ERROR] mysqld.exe: Table ms13/role_time is corrupted. Please drop the table and recreate.
+2023-01-08 23:17:54 46 [ERROR] mysqld.exe: Table ms13/role_time_log is corrupted. Please drop the table and recreate.
+2023-01-08 23:17:54 46 [ERROR] mysqld.exe: Table ms13/round is corrupted. Please drop the table and recreate.
+2023-01-08 23:17:54 46 [ERROR] mysqld.exe: Table ms13/schema_revision is corrupted. Please drop the table and recreate.
+2023-01-08 23:17:54 46 [ERROR] mysqld.exe: Table ms13/stickyban is corrupted. Please drop the table and recreate.
+2023-01-08 23:17:54 46 [ERROR] mysqld.exe: Table ms13/stickyban_matched_cid is corrupted. Please drop the table and recreate.
+2023-01-08 23:17:54 46 [ERROR] mysqld.exe: Table ms13/stickyban_matched_ckey is corrupted. Please drop the table and recreate.
+2023-01-08 23:17:54 46 [ERROR] mysqld.exe: Table ms13/stickyban_matched_ip is corrupted. Please drop the table and recreate.
+2023-01-08 23:17:54 46 [ERROR] mysqld.exe: Table ms13/ticket is corrupted. Please drop the table and recreate.
+2023-01-08 23:18:00 46 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 23:18:04 46 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 23:18:04 46 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 23:18:04 46 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 23:18:05 46 [ERROR] mysqld.exe: Table ms13/achievement_metadata is corrupted. Please drop the table and recreate.
+2023-01-08 23:18:07 46 [ERROR] mysqld.exe: Table ms13/achievement_metadata is corrupted. Please drop the table and recreate.
+2023-01-08 23:18:07 46 [ERROR] mysqld.exe: Table ms13/achievement_metadata is corrupted. Please drop the table and recreate.
+2023-01-08 23:18:07 46 [ERROR] mysqld.exe: Table ms13/achievement_metadata is corrupted. Please drop the table and recreate.
+2023-01-08 23:18:08 46 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 23:18:09 46 [ERROR] mysqld.exe: Table ms13/achievements is corrupted. Please drop the table and recreate.
+2023-01-08 23:18:10 46 [ERROR] mysqld.exe: Table ms13/ticket is corrupted. Please drop the table and recreate.
+2023-01-08 23:18:11 46 [ERROR] mysqld.exe: Table ms13/ticket is corrupted. Please drop the table and recreate.
+2023-01-08 23:18:11 46 [ERROR] mysqld.exe: Table ms13/ticket is corrupted. Please drop the table and recreate.
+2023-01-08 23:18:11 46 [ERROR] mysqld.exe: Table ms13/ticket is corrupted. Please drop the table and recreate.
