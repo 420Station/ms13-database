@@ -33,3 +33,25 @@ Version: '10.10.2-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribut
 2023-01-08 18:50:00 11 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
 2023-01-08 18:51:31 12 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
 2023-01-08 18:51:31 13 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-08 19:15:58 15 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-08 19:15:58 16 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-08 19:15:58 17 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-08 19:15:58 18 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-08 19:15:59 19 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-08 19:16:03 20 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-08 19:18:01 21 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-08 19:18:01 22 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-08 20:28:58 24 [Warning] Aborted connection 24 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 20:28:58 26 [Warning] Aborted connection 26 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 20:28:58 25 [Warning] Aborted connection 25 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 20:28:58 23 [Warning] Aborted connection 23 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 20:40:22 0 [Note] Windows service "MariaDB":  received SERVICE_CONTROL_SHUTDOWN
+2023-01-08 20:40:22 0 [Note] C:\Program Files\MariaDB 10.10\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-01-08 20:40:22 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-01-08 20:40:22 0 [Note] InnoDB: Starting shutdown...
+2023-01-08 20:40:22 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Program Files\MariaDB 10.10\data\ib_buffer_pool
+2023-01-08 20:40:22 0 [Note] InnoDB: Buffer pool(s) dump completed at 230108 20:40:22
+2023-01-08 20:40:23 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-01-08 20:40:23 0 [Note] InnoDB: Shutdown completed; log sequence number 489889; transaction id 357
+2023-01-08 20:40:23 0 [Note] C:\Program Files\MariaDB 10.10\bin\mysqld.exe: Shutdown complete
+
