@@ -536,3 +536,7 @@ Version: '10.10.2-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribut
 2023-01-08 23:18:11 46 [ERROR] mysqld.exe: Table ms13/ticket is corrupted. Please drop the table and recreate.
 2023-01-08 23:18:11 46 [ERROR] mysqld.exe: Table ms13/ticket is corrupted. Please drop the table and recreate.
 2023-01-08 23:18:11 46 [ERROR] mysqld.exe: Table ms13/ticket is corrupted. Please drop the table and recreate.
+2023-01-08 23:39:53 45 [Warning] Aborted connection 45 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 23:39:53 44 [Warning] Aborted connection 44 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 23:39:53 42 [Warning] Aborted connection 42 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-08 23:39:53 43 [Warning] Aborted connection 43 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
