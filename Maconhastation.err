@@ -540,3 +540,29 @@ Version: '10.10.2-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribut
 2023-01-08 23:39:53 44 [Warning] Aborted connection 44 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
 2023-01-08 23:39:53 42 [Warning] Aborted connection 42 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
 2023-01-08 23:39:53 43 [Warning] Aborted connection 43 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-09  5:42:09 50 [Warning] Aborted connection 50 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-09  5:42:09 49 [Warning] Aborted connection 49 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-09  5:42:09 48 [Warning] Aborted connection 48 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-09  6:11:58 55 [Warning] Aborted connection 55 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-09  6:11:58 52 [Warning] Aborted connection 52 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-09  6:11:58 54 [Warning] Aborted connection 54 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-09  6:11:58 53 [Warning] Aborted connection 53 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-09  8:47:13 56 [Warning] Aborted connection 56 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-09  8:47:13 57 [Warning] Aborted connection 57 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-09  8:47:13 58 [Warning] Aborted connection 58 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-09  8:47:13 86 [Warning] Aborted connection 86 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-09  8:47:13 88 [Warning] Aborted connection 88 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-09  8:47:13 89 [Warning] Aborted connection 89 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-09  8:47:13 87 [Warning] Aborted connection 87 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-09  9:14:50 90 [Warning] Aborted connection 90 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-09  9:14:50 91 [Warning] Aborted connection 91 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-09  9:32:04 0 [Note] Windows service "MariaDB":  received SERVICE_CONTROL_SHUTDOWN
+2023-01-09  9:32:04 0 [Note] C:\Program Files\MariaDB 10.10\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-01-09  9:32:04 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-01-09  9:32:04 0 [Note] InnoDB: Starting shutdown...
+2023-01-09  9:32:04 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Program Files\MariaDB 10.10\data\ib_buffer_pool
+2023-01-09  9:32:04 0 [Note] InnoDB: Buffer pool(s) dump completed at 230109  9:32:04
+2023-01-09  9:32:05 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-01-09  9:32:05 0 [Note] InnoDB: Shutdown completed; log sequence number 1437943; transaction id 1287
+2023-01-09  9:32:05 0 [Note] C:\Program Files\MariaDB 10.10\bin\mysqld.exe: Shutdown complete
+
