@@ -566,3 +566,21 @@ Version: '10.10.2-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribut
 2023-01-09  9:32:05 0 [Note] InnoDB: Shutdown completed; log sequence number 1437943; transaction id 1287
 2023-01-09  9:32:05 0 [Note] C:\Program Files\MariaDB 10.10\bin\mysqld.exe: Shutdown complete
 
+2023-01-09  9:32:19 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-01-09  9:32:19 0 [Note] InnoDB: Using transactional memory
+2023-01-09  9:32:19 0 [Note] InnoDB: Number of transaction pools: 1
+2023-01-09  9:32:19 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-01-09  9:32:19 0 [Note] InnoDB: Initializing buffer pool, total size = 0.999GiB, chunk size = 15.984MiB
+2023-01-09  9:32:19 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-01-09  9:32:19 0 [Note] InnoDB: File system buffers for log disabled (block size=4096 bytes)
+2023-01-09  9:32:19 0 [Note] InnoDB: 128 rollback segments are active.
+2023-01-09  9:32:19 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2023-01-09  9:32:19 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2023-01-09  9:32:19 0 [Note] InnoDB: log sequence number 1437943; transaction id 1288
+2023-01-09  9:32:19 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-01-09  9:32:19 0 [Note] Server socket created on IP: '::'.
+2023-01-09  9:32:19 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-01-09  9:32:19 0 [Note] InnoDB: Loading buffer pool(s) from C:\Program Files\MariaDB 10.10\data\ib_buffer_pool
+2023-01-09  9:32:19 0 [Note] InnoDB: Buffer pool(s) load completed at 230109  9:32:19
+2023-01-09  9:32:19 0 [Note] C:\Program Files\MariaDB 10.10\bin\mysqld.exe: ready for connections.
+Version: '10.10.2-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
