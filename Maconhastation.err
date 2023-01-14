@@ -595,3 +595,7 @@ Version: '10.10.2-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribut
 2023-01-12 10:55:36 70 [Warning] Aborted connection 70 to db: 'ms13' user: 'root' host: 'localhost' (Got timeout reading communication packets)
 2023-01-12 10:55:36 72 [Warning] Aborted connection 72 to db: 'ms13' user: 'root' host: 'localhost' (Got timeout reading communication packets)
 2023-01-12 10:55:36 71 [Warning] Aborted connection 71 to db: 'ms13' user: 'root' host: 'localhost' (Got timeout reading communication packets)
+2023-01-14 21:18:04 110 [Warning] Aborted connection 110 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-14 21:18:04 109 [Warning] Aborted connection 109 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-14 21:18:04 108 [Warning] Aborted connection 108 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-14 21:18:04 107 [Warning] Aborted connection 107 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
