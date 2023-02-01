@@ -599,3 +599,237 @@ Version: '10.10.2-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribut
 2023-01-14 21:18:04 109 [Warning] Aborted connection 109 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
 2023-01-14 21:18:04 108 [Warning] Aborted connection 108 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
 2023-01-14 21:18:04 107 [Warning] Aborted connection 107 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  1:06:28 114 [Warning] Aborted connection 114 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  1:06:28 113 [Warning] Aborted connection 113 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  1:06:28 111 [Warning] Aborted connection 111 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  1:06:28 112 [Warning] Aborted connection 112 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  4:46:38 115 [Warning] Aborted connection 115 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  4:46:38 117 [Warning] Aborted connection 117 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  4:46:38 118 [Warning] Aborted connection 118 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  4:46:38 116 [Warning] Aborted connection 116 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  4:56:29 129 [Warning] Aborted connection 129 to db: 'tgs' user: 'TGS' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  5:06:42 147 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-15  5:06:42 148 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-15  5:06:42 149 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-15  5:06:42 150 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-15  5:27:35 0 [Note] Windows service "MariaDB":  received SERVICE_CONTROL_SHUTDOWN
+2023-01-15  5:27:35 0 [Note] C:\Program Files\MariaDB 10.10\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-01-15  5:27:35 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-01-15  5:27:36 0 [Note] InnoDB: Starting shutdown...
+2023-01-15  5:27:36 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Program Files\MariaDB 10.10\data\ib_buffer_pool
+2023-01-15  5:27:36 0 [Note] InnoDB: Buffer pool(s) dump completed at 230115  5:27:36
+2023-01-15  5:27:37 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-01-15  5:27:37 0 [Note] InnoDB: Shutdown completed; log sequence number 2847672; transaction id 4879
+2023-01-15  5:27:37 0 [Note] C:\Program Files\MariaDB 10.10\bin\mysqld.exe: Shutdown complete
+
+2023-01-15  5:27:54 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-01-15  5:27:54 0 [Note] InnoDB: Using transactional memory
+2023-01-15  5:27:54 0 [Note] InnoDB: Number of transaction pools: 1
+2023-01-15  5:27:54 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-01-15  5:27:54 0 [Note] InnoDB: Initializing buffer pool, total size = 0.999GiB, chunk size = 15.984MiB
+2023-01-15  5:27:54 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-01-15  5:27:54 0 [Note] InnoDB: File system buffers for log disabled (block size=4096 bytes)
+2023-01-15  5:27:54 0 [Note] InnoDB: 128 rollback segments are active.
+2023-01-15  5:27:54 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2023-01-15  5:27:54 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2023-01-15  5:27:54 0 [Note] InnoDB: log sequence number 2847672; transaction id 4880
+2023-01-15  5:27:54 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-01-15  5:27:54 0 [Note] InnoDB: Loading buffer pool(s) from C:\Program Files\MariaDB 10.10\data\ib_buffer_pool
+2023-01-15  5:27:55 0 [Note] Server socket created on IP: '::'.
+2023-01-15  5:27:55 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-01-15  5:27:55 0 [Note] InnoDB: Buffer pool(s) load completed at 230115  5:27:55
+2023-01-15  5:27:55 0 [Note] C:\Program Files\MariaDB 10.10\bin\mysqld.exe: ready for connections.
+Version: '10.10.2-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2023-01-15  5:32:00 14 [Warning] Aborted connection 14 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  5:32:00 14 [Warning] Aborted connection 14 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-01-15  5:32:00 15 [Warning] Aborted connection 15 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  5:32:00 15 [Warning] Aborted connection 15 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-01-15  5:32:00 16 [Warning] Aborted connection 16 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  5:32:00 16 [Warning] Aborted connection 16 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-01-15  5:32:00 17 [Warning] Aborted connection 17 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  5:32:00 17 [Warning] Aborted connection 17 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-01-15  6:01:50 30 [Warning] Aborted connection 30 to db: 'tgs' user: 'TGS' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  6:01:50 25 [Warning] Aborted connection 25 to db: 'tgs' user: 'TGS' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  6:01:50 22 [Warning] Aborted connection 22 to db: 'tgs' user: 'TGS' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  6:11:11 35 [Warning] Aborted connection 35 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  6:11:11 42 [Warning] Aborted connection 42 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  6:14:08 45 [Warning] Aborted connection 45 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  6:14:08 45 [Warning] Aborted connection 45 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-01-15  6:14:08 46 [Warning] Aborted connection 46 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  6:14:08 46 [Warning] Aborted connection 46 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-01-15  6:14:08 47 [Warning] Aborted connection 47 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  6:14:08 47 [Warning] Aborted connection 47 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-01-15  6:14:08 48 [Warning] Aborted connection 48 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  6:14:08 48 [Warning] Aborted connection 48 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-01-15  6:14:08 49 [Warning] Aborted connection 49 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  6:14:08 49 [Warning] Aborted connection 49 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-01-15  6:14:08 50 [Warning] Aborted connection 50 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  6:14:08 50 [Warning] Aborted connection 50 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-01-15  6:23:44 43 [Warning] Aborted connection 43 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  6:24:41 57 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-15  6:24:41 58 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-15  6:24:41 59 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-15  6:24:41 60 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-15  6:36:55 61 [Warning] Aborted connection 61 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  6:36:55 62 [Warning] Aborted connection 62 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  6:39:18 70 [Warning] Aborted connection 70 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  6:46:44 0 [Note] Windows service "MariaDB":  received SERVICE_CONTROL_SHUTDOWN
+2023-01-15  6:46:44 0 [Note] C:\Program Files\MariaDB 10.10\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-01-15  6:46:44 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-01-15  6:46:44 0 [Note] InnoDB: Starting shutdown...
+2023-01-15  6:46:44 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Program Files\MariaDB 10.10\data\ib_buffer_pool
+2023-01-15  6:46:44 0 [Note] InnoDB: Buffer pool(s) dump completed at 230115  6:46:44
+2023-01-15  6:46:44 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-01-15  6:46:44 0 [Note] InnoDB: Shutdown completed; log sequence number 3095245; transaction id 5449
+2023-01-15  6:46:44 0 [Note] C:\Program Files\MariaDB 10.10\bin\mysqld.exe: Shutdown complete
+
+2023-01-15  6:46:58 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-01-15  6:46:58 0 [Note] InnoDB: Using transactional memory
+2023-01-15  6:46:58 0 [Note] InnoDB: Number of transaction pools: 1
+2023-01-15  6:46:58 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-01-15  6:46:58 0 [Note] InnoDB: Initializing buffer pool, total size = 0.999GiB, chunk size = 15.984MiB
+2023-01-15  6:46:58 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-01-15  6:46:59 0 [Note] InnoDB: File system buffers for log disabled (block size=4096 bytes)
+2023-01-15  6:46:59 0 [Note] InnoDB: 128 rollback segments are active.
+2023-01-15  6:46:59 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2023-01-15  6:46:59 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2023-01-15  6:46:59 0 [Note] InnoDB: log sequence number 3095245; transaction id 5450
+2023-01-15  6:46:59 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-01-15  6:46:59 0 [Note] InnoDB: Loading buffer pool(s) from C:\Program Files\MariaDB 10.10\data\ib_buffer_pool
+2023-01-15  6:46:59 0 [Note] Server socket created on IP: '::'.
+2023-01-15  6:46:59 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-01-15  6:46:59 0 [Note] InnoDB: Buffer pool(s) load completed at 230115  6:46:59
+2023-01-15  6:46:59 0 [Note] C:\Program Files\MariaDB 10.10\bin\mysqld.exe: ready for connections.
+Version: '10.10.2-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2023-01-15  7:08:34 21 [Warning] Aborted connection 21 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  7:08:34 21 [Warning] Aborted connection 21 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-01-15  7:08:34 22 [Warning] Aborted connection 22 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  7:08:34 22 [Warning] Aborted connection 22 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-01-15  7:08:34 23 [Warning] Aborted connection 23 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  7:08:34 23 [Warning] Aborted connection 23 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-01-15  7:13:00 24 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-15  7:13:00 25 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-15  7:13:00 26 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-15  7:13:00 27 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-15  7:14:00 13 [Warning] Aborted connection 13 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  7:14:00 14 [Warning] Aborted connection 14 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-15  7:14:00 15 [Warning] Aborted connection 15 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-15 20:42:58 34 [Warning] Aborted connection 34 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-15 20:42:58 32 [Warning] Aborted connection 32 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-15 20:42:58 31 [Warning] Aborted connection 31 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-15 20:42:58 33 [Warning] Aborted connection 33 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-16  3:30:55 71 [Warning] Aborted connection 71 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-16  3:30:55 72 [Warning] Aborted connection 72 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-16  3:30:55 74 [Warning] Aborted connection 74 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-16  3:30:55 73 [Warning] Aborted connection 73 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-16 11:55:20 76 [Warning] Aborted connection 76 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-16 11:55:20 77 [Warning] Aborted connection 77 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-16 12:00:06 86 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-16 12:00:06 87 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-16 12:00:06 88 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-16 12:00:06 89 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-17  0:45:42 101 [Warning] Aborted connection 101 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-17  0:45:42 104 [Warning] Aborted connection 104 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-17  0:45:42 105 [Warning] Aborted connection 105 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-17  0:45:42 103 [Warning] Aborted connection 103 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-17  0:45:42 102 [Warning] Aborted connection 102 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-18  6:57:50 155 [Warning] Aborted connection 155 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-18  6:57:50 157 [Warning] Aborted connection 157 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-18  6:57:50 156 [Warning] Aborted connection 156 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-18  6:57:50 154 [Warning] Aborted connection 154 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-18 16:24:43 188 [Warning] Aborted connection 188 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-18 16:24:43 189 [Warning] Aborted connection 189 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-18 19:23:46 193 [Warning] Aborted connection 193 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-18 19:23:47 194 [Warning] Aborted connection 194 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-18 19:29:01 204 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-18 19:29:01 205 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-18 19:29:01 206 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-18 19:29:01 207 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-19  2:43:12 217 [Warning] Aborted connection 217 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-19  2:43:12 216 [Warning] Aborted connection 216 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-19  2:43:12 215 [Warning] Aborted connection 215 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-20  2:45:03 228 [Warning] Aborted connection 228 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-20  2:45:03 227 [Warning] Aborted connection 227 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-20  2:45:03 229 [Warning] Aborted connection 229 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-20 11:48:30 236 [Warning] Aborted connection 236 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-20 11:48:30 237 [Warning] Aborted connection 237 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-20 11:52:20 247 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-20 11:52:20 248 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-20 11:52:20 249 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-20 11:52:20 250 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-21  1:38:39 261 [Warning] Aborted connection 261 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-21  1:38:43 262 [Warning] Aborted connection 262 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-21  1:52:13 282 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-21  1:52:13 283 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-21  1:52:13 284 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-21  1:52:13 285 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-21  1:56:40 278 [Warning] Aborted connection 278 to db: 'tgs' user: 'TGS' host: 'localhost' (Got an error reading communication packets)
+2023-01-21  1:56:40 274 [Warning] Aborted connection 274 to db: 'tgs' user: 'TGS' host: 'localhost' (Got an error reading communication packets)
+2023-01-21  1:56:40 286 [Warning] Aborted connection 286 to db: 'tgs' user: 'TGS' host: 'localhost' (Got an error reading communication packets)
+2023-01-21  1:56:40 281 [Warning] Aborted connection 281 to db: 'tgs' user: 'TGS' host: 'localhost' (Got an error reading communication packets)
+2023-01-21  1:56:40 288 [Warning] Aborted connection 288 to db: 'tgs' user: 'TGS' host: 'localhost' (Got an error reading communication packets)
+2023-01-21  1:56:40 287 [Warning] Aborted connection 287 to db: 'tgs' user: 'TGS' host: 'localhost' (Got an error reading communication packets)
+2023-01-21  1:56:40 272 [Warning] Aborted connection 272 to db: 'tgs' user: 'TGS' host: 'localhost' (Got an error reading communication packets)
+2023-01-21  1:56:40 279 [Warning] Aborted connection 279 to db: 'tgs' user: 'TGS' host: 'localhost' (Got an error reading communication packets)
+2023-01-21 22:58:55 310 [Warning] Aborted connection 310 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-21 22:58:55 309 [Warning] Aborted connection 309 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-21 23:03:20 321 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-21 23:03:20 322 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-21 23:03:20 323 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-21 23:03:20 324 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-22  4:48:07 320 [Warning] Aborted connection 320 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-22  4:48:08 326 [Warning] Aborted connection 326 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-22 15:01:06 341 [Warning] Aborted connection 341 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-22 15:01:06 342 [Warning] Aborted connection 342 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-22 15:06:23 347 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-22 15:06:23 348 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-22 15:06:23 349 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-22 15:06:23 350 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-23  1:10:34 379 [Warning] Aborted connection 379 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-23  1:10:34 380 [Warning] Aborted connection 380 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-23  1:14:55 382 [Warning] Aborted connection 382 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-23  1:14:55 383 [Warning] Aborted connection 383 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-23  3:01:52 391 [Warning] Aborted connection 391 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-23  3:01:52 393 [Warning] Aborted connection 393 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-23  3:01:52 392 [Warning] Aborted connection 392 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-24 11:46:00 475 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-24 11:46:00 476 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-24 11:46:00 477 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-24 11:46:00 478 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-25  6:58:53 501 [Warning] Aborted connection 501 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-25  6:58:53 502 [Warning] Aborted connection 502 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-26  0:56:23 530 [Warning] Aborted connection 530 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-26  0:56:23 531 [Warning] Aborted connection 531 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-28  3:00:39 701 [Warning] Aborted connection 701 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-28  3:00:39 702 [Warning] Aborted connection 702 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-28  8:32:27 734 [Warning] Aborted connection 734 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-28  8:32:27 735 [Warning] Aborted connection 735 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-28  8:32:28 736 [Warning] Aborted connection 736 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-28  8:32:28 738 [Warning] Aborted connection 738 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-28  8:34:02 740 [Warning] Aborted connection 740 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-28  8:37:53 742 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-28  8:37:53 743 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-28  8:37:53 744 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-28  8:37:53 745 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-29  6:12:44 820 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-29  6:12:44 821 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-29  6:12:44 822 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-29  6:12:44 823 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-29  6:13:18 819 [Warning] Aborted connection 819 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-29  6:13:18 818 [Warning] Aborted connection 818 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-29 17:45:47 833 [Warning] Aborted connection 833 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-29 17:45:47 832 [Warning] Aborted connection 832 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-29 20:46:26 843 [Warning] Aborted connection 843 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-29 20:46:26 842 [Warning] Aborted connection 842 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-30  0:23:22 848 [Warning] Aborted connection 848 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-30  0:23:22 850 [Warning] Aborted connection 850 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-30  0:23:22 849 [Warning] Aborted connection 849 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-30 22:32:04 867 [Warning] Aborted connection 867 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-30 22:32:05 866 [Warning] Aborted connection 866 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-30 22:32:05 868 [Warning] Aborted connection 868 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-31  2:56:09 873 [Warning] Aborted connection 873 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-31  2:56:09 874 [Warning] Aborted connection 874 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-31  3:10:05 879 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-31  3:10:05 880 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-31  3:10:05 881 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-31  3:10:05 882 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
