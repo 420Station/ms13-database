@@ -833,3 +833,5 @@ Version: '10.10.2-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribut
 2023-01-31  3:10:05 880 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
 2023-01-31  3:10:05 881 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
 2023-01-31  3:10:05 882 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-02-01  8:38:33 907 [Warning] Aborted connection 907 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-01  8:38:33 908 [Warning] Aborted connection 908 to db: 'ms13' user: 'root' host: 'localhost' (Got an error reading communication packets)
